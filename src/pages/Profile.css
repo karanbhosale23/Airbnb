@@ -1,0 +1,67 @@
+/* src/components/Profile.css */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.profile-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-info table {
+    width: 100%;
+}
+
+.profile-info td {
+    padding: 10px;
+}
+
+.profile-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.password-field {
+    display: flex;
+    align-items: center;
+}
+
+.password-field button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
